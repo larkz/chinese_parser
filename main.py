@@ -59,10 +59,14 @@ r_subset = list(map(lambda x: x[1], r))
 for i in range(0, print_char):
         print(np.random.choice(r_subset, 1)[0])
 
+
+
+
+'''
 while 1:
         print("ll")
 
-'''
+
 key = 1
 while key == 1:
         key = input("Press 1 to continue, any key to exit:")
