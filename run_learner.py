@@ -4,7 +4,7 @@ import numpy as np
 import sys
 import pandas as pd
 
-ipath= u"hsk/hsk3.txt"
+ipath= u"hsk/hsk5.txt"
 
 df = pd.read_csv(ipath, sep='\t', header=None)
 
